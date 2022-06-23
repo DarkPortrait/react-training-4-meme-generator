@@ -1,5 +1,11 @@
+import Header from './components/Header'
+import MemeGen from './components/MemeGen'
+
 export default function App(){
   return(
-    <p>Bou Bou Bou</p>
+    <div>
+      <Header />
+      <MemeGen />
+    </div>
   )
 }
