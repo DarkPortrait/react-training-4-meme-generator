@@ -1,9 +1,14 @@
+body {
+  font-family: "Karla";
+}
+
 .header {
   display: flex;
   align-items: center;
   height: 65px;
   padding: 20px;
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: #FFFFFF;
 }
 
 .header--img {
@@ -13,5 +18,11 @@
 
 .header--h2 {
   font-size: 1.25rem;
+  letter-spacing: -0.05em;
   margin-right: auto;
+}
+
+.header--h3 {
+  font-size: 1rem;
+  font-weight: 500;
 }

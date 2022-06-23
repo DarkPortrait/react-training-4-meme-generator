@@ -1,3 +1,4 @@
-.cache/
+*.pack
+*.old
 .DS_Store
 *.swp
