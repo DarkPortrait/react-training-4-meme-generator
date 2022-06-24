@@ -1,4 +1,5 @@
 body {
+  width: 500px;
   font-family: "Karla";
 }
 
@@ -49,4 +50,9 @@ body {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+.form--img {
+  grid-column: 1 / -1;
+  width: 100%;
 }
